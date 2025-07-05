@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tarot Reader Sukanya</title>
+  <link rel="icon" href="./moon-star-crystal-sun-wave-sacred-geometry-spiritual-guidance-tarot-card-reader-tattoo_117739-2431.avif" type="image/png">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #1f1c2c, #928dab);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    h1 {
+      font-family: 'Cinzel Decorative', cursive;
+      font-size: 3rem;
+      color: #ffd700;
+      margin-bottom: 0.5rem;
+      animation: fadeInDown 1s ease-in-out;
+    }
+
+    .subtitle {
+      font-size: 1.2rem;
+      margin-bottom: 1.5rem;
+      color: #fcd3ff;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    .quote-banner {
+      font-size: 1.5rem;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 1rem 2rem;
+      border-radius: 12px;
+      color: #ffefb0;
+      font-weight: bold;
+      margin-bottom: 2rem;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+      max-width: 600px;
+    }
+
+    .info {
+      font-size: 1.1rem;
+      color: #fff;
+      background: rgba(0,0,0,0.4);
+      padding: 1.5rem 2rem;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.6);
+      max-width: 600px;
+      animation: fadeInUp 1.5s ease-in-out;
+    }
+
+    .info p {
+      margin: 0.5rem 0;
+    }
+
+    .info a {
+      color: #ffd700;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s, text-shadow 0.3s;
+    }
+
+    .info a:hover {
+      text-decoration: underline;
+      color: #ffea00;
+      text-shadow: 0 0 10px #fff176;
+    }
+
+    button {
+      margin-top: 2rem;
+      padding: 0.8rem 1.5rem;
+      font-size: 1rem;
+      background: #ff8c00;
+      border: none;
+      border-radius: 8px;
+      color: white;
+      cursor: pointer;
+      transition: background 0.3s, transform 0.2s;
+    }
+
+    button:hover {
+      background: #e67600;
+      transform: scale(1.05);
+    }
+
+    .whatsapp {
+      margin-top: 1rem;
+      background-color: #25D366;
+    }
+
+    footer {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #bbb;
+      animation: fadeIn 2.5s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+      @media (max-width: 768px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      .subtitle {
+        font-size: 1rem;
+      }
+
+      .quote-banner {
+        font-size: 1.2rem;
+        padding: 0.8rem 1rem;
+      }
+
+      .info {
+        font-size: 1rem;
+        padding: 1rem;
+      }
+
+      button {
+        width: 100%;
+        font-size: 0.95rem;
+        padding: 0.8rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      body {
+        padding: 1rem;
+      }
+
+      h1 {
+        font-size: 1.8rem;
+      }
+
+      .quote-banner {
+        font-size: 1rem;
+      }
+
+      .info {
+        font-size: 0.95rem;
+      }
+
+      footer {
+        font-size: 0.75rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>🔮 Tarot by Sukanya</h1>
+  <div class="subtitle">98% Accurate Readings • Trusted by Many</div>
+
+  <div class="quote-banner" id="daily-quote">🗯️ Loading daily insight...</div>
+
+  <div class="info">
+    <p>📞 Call: <a href="tel:+917665494329">+91 76654 94329</a></p>
+    <p>📧 Email: <a href="mailto:sukanyarathore2003@gmail.com">sukanyarathore2003@gmail.com</a></p>
+    <p>👻 Snapchat: <strong>sukanya.0411</strong></p>
+    <p>📸 Instagram: <a href="https://instagram.com/Sukanyarathore0411" target="_blank">@Sukanyarathore0411</a></p>
+    <p>📱 WhatsApp: <a href="https://wa.me/917665494329" target="_blank">Message on WhatsApp (7665494329)</a></p>
+    <p>📅 Schedule your personalized tarot session via email or Instagram direct message</p>
+    <button onclick="bookNow()">📩 Book Now</button>
+    <a href="https://wa.me/917665494329?text=Hi%20Sukanya%2C%20I%20want%20to%20book%20a%20tarot%20reading." target="_blank">
+      <button class="whatsapp">💬 Book via WhatsApp (7665494329)</button>
+    </a>
+  </div>
+
+  <footer>
+    &copy; 2025 Sukanya Rathore • Your Trusted Tarot Guide 🔮
+  </footer>
+
+  <script>
+    function bookNow() {
+      const contactMethod = confirm("Would you like to book via Instagram? Click 'Cancel' to book by Email.");
+      if (contactMethod) {
+        window.open("https://instagram.com/Sukanyarathore0411", "_blank");
+      } else {
+        window.location.href = "mailto:sukanyarathore2003@gmail.com?subject=Tarot%20Reading%20Booking&body=Hi%20Sukanya,%20I%20would%20like%20to%20book%20a%20tarot%20reading.";
+      }
+    }
+
+    const messages = [
+      "Your intuition is your superpower.",
+      "The cards don't lie — they guide.",
+      "Let go of what no longer serves you.",
+      "Magic happens when you trust yourself.",
+      "Energy flows where attention goes."
+    ];
+    const quote = messages[Math.floor(Math.random() * messages.length)];
+    document.getElementById("daily-quote").innerText = '🗯️ ' + quote;
+  </script>
+</body>
+</html>
